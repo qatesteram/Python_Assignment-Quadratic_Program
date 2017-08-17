@@ -1,0 +1,15 @@
+import cmath
+
+a = float(input('What is the value of A: '))
+b = float(input('What is the value of B: '))
+c = float(input('What is the value of C: '))
+x = float(input('What is the value of X: '))
+
+print ("The following quadratic was entered")
+
+def evalQuadratic(a, b, c, x):
+    z = (a * (x ** 2) + (b * x) + c)
+    return z
+testResult = evalQuadratic(a, b, c, x)
+print ("The value of the quadratic is " + str(testResult))
+
